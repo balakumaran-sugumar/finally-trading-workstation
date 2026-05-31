@@ -1,0 +1,27 @@
+# Environment — never commit populated credentials
+.env
+
+# SQLite database files
+db/*.db
+db/*.db-wal
+db/*.db-shm
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+frontend/out/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+*.swp
